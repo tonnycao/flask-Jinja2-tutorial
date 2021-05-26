@@ -21,3 +21,7 @@ The `startup.py` file, therefore, is a shim to import the app object from the `h
 
 1. comment form: email, title, content.
 2. comments dashboard: pagination, edit, delete.
+
+
+## source
+https://code.visualstudio.com/docs/python/tutorial-flask

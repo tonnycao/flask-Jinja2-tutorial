@@ -1,8 +1,8 @@
-# Python/Flask Tutorial for Visual Studio Code
+# Python/Flask Jinja2 Tutorial
 
-* This sample contains the completed program from the tutorial, make sure to visit the link: [Using Flask in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-flask). Intermediate steps are not included.
+* This sample contains the completed program from the tutorial.
 
-* It also contains the *Dockerfile* and *uwsgi.ini* files necessary to build a container with a production server. The resulting image works both locally and when deployed to Azure App Service. See [Deploy Python using Docker containers](https://code.visualstudio.com/docs/python/tutorial-deploy-containers).
+* It also contains the *Dockerfile* and *uwsgi.ini* files necessary to build a container with a production server.
 
 * To run the app locally:
   1. Run the command `cd hello_app`, to change into the folder that contains the Flask app.
@@ -17,16 +17,7 @@ Because the app code is in its own *module* in the `hello_app` folder (which has
 
 The `startup.py` file, therefore, is a shim to import the app object from the `hello_app` module, which then allows you to use startup:app in the Gunicorn command line (see `startup.txt`).
 
-## Contributing
+## comments pages and mange comments in dashboard
 
-Contributions to the sample are welcome. When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-flask.md](https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-flask.md).
-
-Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot automatically determines whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
-
-## Additional details
-
-* This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-* For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-* Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+1. comment form: email, title, content.
+2. comments dashboard: pagination, edit, delete.
